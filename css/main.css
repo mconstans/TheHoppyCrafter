@@ -65,7 +65,7 @@
     text-align: center;
   }
   
-  .section_impo {
+  .section_hero {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -243,7 +243,7 @@
     -ms-grid-row-align: center;
     align-self: center;
     font-family: new-spirit, sans-serif;
-    color: #000;
+    color: white;
     white-space: normal;
   }
   
@@ -761,12 +761,13 @@
     text-decoration: none;
     color: #333333;
   }
+  
   .w-nav-link {
     position: relative;
     display: inline-block;
     vertical-align: top;
     text-decoration: none;
-    color: #222222;
+    color: white;
     padding: 20px;
     text-align: left;
     margin-left: auto;
