@@ -31,8 +31,6 @@
     text-align: left;
   }
   
-
-  
   .body {
     background-color: #FAEAE2;
   }
@@ -58,7 +56,54 @@
     min-height: auto;
     min-width: 300px;
   }
-  
+/* motion section */
+.post{
+    background-color: #0B4F71;
+    font-family: new-spirit, sans-serif;
+    color: white;
+    display: flex;
+    padding: 3rem;
+}
+.process h2{
+  font-family: new-spirit, sans-serif;
+  font-size: 31px;
+  margin-left: 20px;
+  padding: 30px;
+  color: #0B4F71;
+  letter-spacing: 4px;
+}
+
+.post-content {
+  padding: 5px 70px 35px 30px;
+}
+.post-image .post {
+  max-width: 50%;
+}
+
+.post p{
+   
+  padding: 30px 30px 5px 30px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 20px;
+  padding-left: 30px;
+}
+.figma {
+font-family: new-spirit, sans-serif;
+width: 1000px;
+margin: auto;
+padding: 20px;
+height: 100%;
+display: flex;
+align-items: center;
+}
+.figma-embed {
+  padding: 20px;
+}
   .div-block {
     padding-top: 140px;
     font-family: new-spirit, sans-serif;
@@ -107,7 +152,6 @@
     font-weight: 600;
     white-space: normal;
   }
-  
   .section_process_body {
     padding-top: 0px;
     padding-bottom: 20px;
@@ -184,7 +228,7 @@
     background-clip: content-box;
   }
 
-  .section_problem2 {
+  .section_illustrations {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -821,17 +865,44 @@
     position: relative;
     float: right;
   }
-  [data-nav-menu-open] {
-    display: block !important;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    /* background: #C8C8C8; */
-    text-align: center;
-    overflow: visible;
-    min-width: 200px;
-  }
-  
- 
-  
+
+/* bibliography styles*/
+
+.bibcontainer {
+    max-width: 75rem;
+    padding: 0 1rem;
+}
+
+.header-block-text {
+    padding-right: 5rem;
+    margin: 0px;
+    max-width: 500px;
+} 
+
+.block-text {
+    padding-right: 5rem;
+} 
+
+.bibcontainer {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-text {
+    font-family: new-spirit, sans-serif;    
+    font-size: 3rem;
+    max-width: 75rem;
+    text-justify: left;
+    line-height: 1.5;
+}
+
+.header-block-text {
+    padding-right: 5rem;
+    max-width: 500px;
+} 
+
+/*line break border*/
+hr {
+  border-top: 5px dotted;
+  color:#0B4F71;
+}
