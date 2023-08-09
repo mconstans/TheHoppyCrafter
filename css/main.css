@@ -14,7 +14,18 @@
     width: 150px;
     height: 100%;
   }
-  
+
+  .video {
+    margin-top: 100px;
+  }
+  .sidetext {
+    margin-top: 120px;
+  }
+  .video2 {
+    width: 1000px;
+    background-color: white;
+    align-content: center;
+  }
   .navbar {
     position: sticky;
     left: 0%;
